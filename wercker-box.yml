@@ -9,4 +9,4 @@ keywords:
 packages:
   - redis@2.8.15
 script: |
-        cat /etc/redis/6379.conf
+    cat /etc/redis/6379.conf
