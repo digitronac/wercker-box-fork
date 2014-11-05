@@ -1,0 +1,12 @@
+name: redis-box-fork
+version: 1.0.1
+inherits: wercker/redis@1.01
+type: service
+platform: ubuntu@12.04
+description: redis
+keywords:
+  - redis
+packages:
+  - redis@2.8.15
+script: |
+        cat /etc/redis/6379.conf
